@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+    height: 100vh;
+    background: linear-gradient(120deg, #ff758c, #ff7eb3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    color: white;
+}
+
+.container {
+    text-align: center;
+    animation: fadeIn 2s ease-in;
+}
+
+button {
+    padding: 12px 25px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    background: white;
+    color: #ff4b7d;
+    font-size: 1em;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
